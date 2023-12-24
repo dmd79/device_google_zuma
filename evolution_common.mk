@@ -5,7 +5,7 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/zuma/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += device/google/zuma/overlay-evolution
 
 # AiAi Config
 PRODUCT_COPY_FILES += \
@@ -23,9 +23,6 @@ endif
 
 # Google Assistant
 PRODUCT_PRODUCT_PROPERTIES += ro.opa.eligible_device=true
-
-# Lineage Health
-include hardware/google/pixel/lineage_health/device.mk
 
 # Linker config
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
